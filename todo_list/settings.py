@@ -40,7 +40,15 @@ INSTALLED_APPS = [
 
     #local apps
     "todos.apps.TodosConfig"
+
+    #external modules
+    "rest_framework"
 ]
+REST_FRAMEWORKS = {
+    "DEFAULT_PERMISSION_CLASSES": [
+    'rest_framework.permissions.AllowAny'
+    ]
+}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
