@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     #local apps
-    "todos.apps.TodosConfig"
+    "todos.apps.TodosConfig" ,
 
     #external modules
     "rest_framework"
